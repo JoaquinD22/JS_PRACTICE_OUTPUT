@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first Javascript Website</title>
+
+    <style>
+        body{
+            font-family: sans-serif;
+            background-color: lightblue;
+            color: white;
+            text-align: center;
+        }
+    </style>
+</head>
+<body class="mt-5 container col">
+    <h1 style="background-color: burlywood;">Sigma</h1>
+    <h4>innerHTML:</h4>
+        <p id="demo"></p>
+
+<script>
+document.getElementById("demo").innerHTML = 234978234798238979870+94874938732987;
+</script>
+<br>
+<br>
+    
+    <h4>document.write:</h4>
+
+    <button type="button" onclick="document.write(727+0)">Click here to go to somewhere you don't know</button>
+    <br>
+    <br>
+
+    <h4>WindowHTML:</h4>
+    <p style="font-weight: bolder;">refresh this page to see something cool</p>
+    <script>
+        window.alert(727 + 0);
+    </script>
+        <br>
+        <br>
+        <h4>Strings:</h4>
+
+        <p id="sigma" ></p>
+
+        <script>
+            let Anime1 = "Mafuyu";
+            let Anime2 = 'Miku';
+            let Anime3 = 'Shiho';
+            
+            document.getElementById("sigma").innerHTML =
+            Anime1 + "<br>" + 
+            Anime2 + "<br>" + 
+            Anime3; 
+            </script>
+            <br>
+            <br>
+            <h4>Numbers:</h4>
+            <p id="nerd"></p>
+
+<script>
+let x1 = 69.00;
+let x2 = 727;
+let x3 = 3.948038;
+
+document.getElementById("nerd").innerHTML =
+x1 + "<br>" + x2 + "<br>" + x3;
+</script>
+<br>
+<br>
+<h4>Booleans</h4>
+<p id="ture"></p>
+
+<script>
+let x = 5;
+let y = 5;
+let z = 6;
+let a = 6;
+
+document.getElementById("ture").innerHTML =
+(x == y) + "<br>" + (x == z) + "<br>" + (a == z);
+</script>
+<br>
+<br>
+<h4>Arrays</h4>
+<p id="aray"></p>
+
+<script>
+const ANIME = ["SQUID GAME", "YOASOBI", "ADO", "YORUSHIKA"];
+document.getElementById("aray").innerHTML = ANIME[3];
+</script>
+
+      
+
+
+
+    
+</body>
+</html>
